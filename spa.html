@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SPA Starter</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/spa.css" rel="stylesheet">
+    <link href="css/spa.shell.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="spa">
+        <!--<div class="spa-slider"></div>-->
+    </div>
+    <!--Third Party Scripts-->
+    <script src="js/jq/jq.js"></script>
+    <script src="js/jq/jq-uri.js"></script>
+    <!--Project Scripts-->
+    <script src="js/spa.js"></script>
+    <script src="js/spa.shell.js"></script>
+    <script>
+  $(document).ready(function(){
+  spa.initModule($('#spa'));
+  });</script>
+</body>
+
+</html>
