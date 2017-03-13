@@ -92,6 +92,10 @@
     border-radius: 5px 0 0 0;
 }
 
+.spa-shell-chat:hover{
+    background: #e74c3c;
+}
+
 .spa-shell-modal {
     margin-top: -200px;
     margin-left: -200px;
